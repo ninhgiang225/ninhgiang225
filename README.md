@@ -26,7 +26,6 @@ giang = {
     "gpa":        "3.95 / 4.0  |  Minor: Statistics",
     "location":   "Waterville, ME 🇺🇸  ↔  Vietnam 🇻🇳",
     "focus":      ["Machine Learning", "Data Analytics", "Modeling"],
-    "domains":    ["Product", "FinTech ", "Manufacturing "],
     "status":     "Open to 2026 new-grad roles "
 }
 ```
