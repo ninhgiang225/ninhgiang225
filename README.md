@@ -21,7 +21,7 @@
 ## 🎓 About Me
 
 ```python
-giang = {
+gina = {
     "education":  "Colby College — B.A. CS & Economics (May 2026)",
     "gpa":        "3.95 / 4.0  |  Minor: Statistics",
     "location":   "Waterville, ME 🇺🇸  ↔  Vietnam 🇻🇳",
