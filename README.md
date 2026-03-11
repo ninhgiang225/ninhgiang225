@@ -86,7 +86,7 @@ gina = {
 | 🛍️  [**MuleMart**](https://github.com/Colby-Now-Merchandise/Colby-Now-Merchandise) | Full-stack campus marketplace · semantic search · ~95% test coverage | `Flask` `PostgreSQL` `NLP` |
 | 📅  [**Mulevents**](https://github.com/ninhgiang225/mulevents) | Campus event platform with QR attendance tracking | `Flask` `SQLite` `Heroku` |
 | 🔗  [**AdoptGraph**](https://github.com/ninhgiang225/Predict-Adoption-via-GNN-on-Facebook-Data) | Tech adoption forecasting on 100K+ users via GNN · ~80% accuracy | `PyTorch` `GNN` |
-| 💊  [**PharmaGuard**](https://github.com/ninhgiang225/Drug_data_engineering_project) | Drug data ETL pipeline · MySQL + Spark + Hive | `MySQL` `Pandas` `Spark` |
+| 💊  [**Consumer Complaint Explorer**](https://github.com/ninhgiang225/Drug_data_engineering_project) | Financial Complaint data ETL pipeline| `SQL`, `dbt`, `PowerBI`, `CI/CD` |
 
 
 ---
