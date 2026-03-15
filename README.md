@@ -85,8 +85,8 @@ gina = {
 | 🏙️  [**CityFlow AI**](https://github.com/ninhgiang225/CityFlow-AI-Pedestrian-Vehicle-Movement-Analytics) | Real-time pedestrian & vehicle tracking · 79% mAP@50 | `YOLOv8` `DeepSORT` `OpenCV` |
 | 🛍️  [**MuleMart**](https://github.com/Colby-Now-Merchandise/Colby-Now-Merchandise) | Full-stack campus marketplace · semantic search · ~95% test coverage | `Flask` `PostgreSQL` `NLP` |
 | 📅  [**Mulevents**](https://github.com/ninhgiang225/mulevents) | Campus event platform with QR attendance tracking | `Flask` `SQLite` `Heroku` |
-| 🔗  [**Stats-Calculator**](https://github.com/ninhgiang225/Stats-Calculator) | A user-friendly app for performing various statistical analyses | `Streamlit`, `SciPy`, `scikit-learn`, `Matplotlib`, `Plotly`|
-| 💊  [**Consumer Complaint Explorer**](https://github.com/ninhgiang225/Drug_data_engineering_project) | Financial Complaint data ETL pipeline| `SQL`, `dbt`, `PowerBI`, `CI/CD` |
+| 📈  [**Stats-Calculator**](https://github.com/ninhgiang225/Stats-Calculator) | A user-friendly app for performing various statistical analyses | `Streamlit`, `SciPy`, `scikit-learn`, `Matplotlib`, `Plotly`|
+| 🔍   [**Consumer Complaint Explorer**](https://github.com/ninhgiang225/local_warehouse_pipeline) | Financial Complaint data ETL pipeline| `SQL`, `dbt`, `PowerBI`, `CI/CD` |
 
 
 ---
