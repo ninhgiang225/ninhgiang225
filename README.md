@@ -93,9 +93,12 @@ gina = {
 
 ## 📊 GitHub Stats
 
-
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ninhgiang225&theme=dark&background=0a0a0a&stroke=222222&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&currStreakNum=ffffff&sideNums=888888&dates=555555&border=222222" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ninhgiang225&theme=dark&background=0a0a0a&stroke=222222&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&currStreakNum=ffffff&sideNums=888888&dates=555555&border=222222&cache_seconds=1800" alt="GitHub Streak" />
+
+  <br/>
+
+  <img src="https://github-readme-stats.vercel.app/api?username=ninhgiang225&show_icons=true&theme=dark&bg_color=0a0a0a&border_color=222222&title_color=ffffff&text_color=888888&icon_color=ffffff&cache_seconds=1800" alt="GitHub Stats" />
 </div>
 
 ---
