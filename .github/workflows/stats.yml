@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # runs every 6 hours
-  workflow_dispatch:          # lets you trigger it manually too
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,38 +11,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Stats Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=ninhgiang225&show_icons=true&bg_color=0a0a0a&title_color=ffffff&icon_color=ffffff&text_color=888888&border_color=222222&include_all_commits=true
-          path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create assets folder
+        run: mkdir -p assets
 
-      - name: Top Languages Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=ninhgiang225&layout=compact&bg_color=0a0a0a&title_color=ffffff&text_color=888888&border_color=222222
-          path: assets/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download Stats Card
+        run: |
+          curl -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=ninhgiang225&show_icons=true&bg_color=0a0a0a&title_color=ffffff&icon_color=ffffff&text_color=888888&border_color=222222&include_all_commits=true"
 
-      - name: Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats-action@v1
-        with:
-          user: ninhgiang225
-          background: 0a0a0a
-          stroke: 222222
-          ring: ffffff
-          fire: ffffff
-          currStreakLabel: ffffff
-          sideLabels: 888888
-          currStreakNum: ffffff
-          sideNums: 888888
-          dates: 555555
-          border: 222222
-          timezone: Asia/Ho_Chi_Minh   # <-- adjust to your timezone
-          output_path: assets/streak.svg
+      - name: Download Top Languages Card
+        run: |
+          curl -o assets/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=ninhgiang225&layout=compact&bg_color=0a0a0a&title_color=ffffff&text_color=888888&border_color=222222"
+
+      - name: Download Streak Card
+        run: |
+          curl -o assets/streak.svg "https://streak-stats.demolab.com/?user=ninhgiang225&background=0a0a0a&stroke=222222&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&currStreakNum=ffffff&sideNums=888888&dates=555555&border=222222&timezone=Asia%2FHo_Chi_Minh"
 
       - name: Commit updated cards
         run: |
