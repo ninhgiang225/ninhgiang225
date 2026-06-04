@@ -94,7 +94,7 @@ gina = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="160" src="https://streak-stats.demolab.com/?user=ninhgiang225&theme=dark&hide_border=true" />
+  <img height="160" src="https://github-readme-streak-stats-eight.vercel.app/?user=ninhgiang225&theme=dark&hide_border=true" />
 </div>
 
 ---
