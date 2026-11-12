@@ -1,7 +1,7 @@
 # Hi, I'm Giang (Gina) 👋
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:222222&height=120&section=header&text=Aspiring%20Data%20Specialist&fontSize=28&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=ML%20%7C%20Data%20Analytics%20%7C%20Modeling&descSize=18&descAlignY=65&descColor=888888" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:222222&height=120&section=header&text=Aspiring%20Data%20Scientist&fontSize=28&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=ML%20%7C%20Data%20Analytics%20%7C%20Modeling&descSize=18&descAlignY=65&descColor=888888" alt="Typing SVG" />
 
   
 </div>
