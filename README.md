@@ -22,11 +22,12 @@
 
 ```python
 gina = {
-    "education":  "Colby College — B.A. CS & Economics (May 2026)",
-    "gpa":        "3.95 / 4.0  |  Minor: Statistics",
-    "location":   "Waterville, ME 🇺🇸  ↔  Vietnam 🇻🇳",
+    "work":       "Manulife | John Hancock"
+    "education":  "Colby College — B.A. CS & Economics (May 2026) |  Minor: Statistics",
+    "gpa":        "3.95 / 4.0"
+    "location":   "Boston, MA 🇺🇸  ↔  Vietnam 🇻🇳",
     "focus":      ["Machine Learning", "Data Analytics", "Modeling"],
-    "status":     "Open to 2026 new-grad roles "
+    "status":     "Open to 2027 Data Science role"
 }
 ```
 
